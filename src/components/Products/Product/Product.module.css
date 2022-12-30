@@ -1,0 +1,86 @@
+
+.product {
+  width: 900px;
+  padding: .5%;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border: 1px;
+  border-radius: 5px;
+  border-color: rgba(255, 167, 167, 0.468);
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__image {
+  width: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px;
+  border-style: solid;
+
+}
+
+.product__details {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details__title {
+  font-size: 23px;
+  font-weight: bold;
+  color:rgba(255, 26, 247, 0.638);
+  font-family: Andale Mono, monospace;	
+}
+
+.details__desc {
+  font-size: 1rem;
+  color: grey;
+  font-family: Optima, sans-serif	
+
+}
+
+.details__price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(0, 249, 0, 0.572)
+}
+
+.product__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.buttons__btn {
+  width: 100px;
+  padding: 0.5rem;
+  background-color: red;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons__btn:hover {
+  opacity: 0.7;
+}
+
+.buttons__view {
+  background: rgb(197, 224, 43);
+  color: red;
+}
+
+.buttons__add {
+  background: pink;
+  color: magenta;
+}
+
+#product-container {
+  padding: 3%;
+
+}
