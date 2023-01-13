@@ -17,6 +17,7 @@ const Product = ({ product, addToCart, loadCurrentItem }) => {
       className={styles.product__image}
       src={product.image}
       alt={product.title}
+      style={{maxHeight: '165px', minWidth: '200px'}}
     />
 
     <div className={styles.product__details}>

@@ -25,11 +25,13 @@
 .summary__title {
   font-size: 1.2rem;
   font-weight: bold;
+  color: white;
 }
 
 .summary__price {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .summary__price span:nth-child(1) {

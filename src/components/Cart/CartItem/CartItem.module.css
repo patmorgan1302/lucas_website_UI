@@ -20,17 +20,22 @@
 }
 
 .details__title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  color: white;
 }
 
 .details__desc {
-  font-size: 0.8rem;
+  font-size: 16px;
+  color: grey;
+
 }
 
 .details__price {
   font-size: 1rem;
   font-weight: bold;
+  color: white;
+
 }
 
 .cartItem__actions {
